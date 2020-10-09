@@ -1,0 +1,259 @@
+/* MORADO OSCURO #251D27
+    ROJO #D53B6F
+    ROSA #B83C60
+    GRIS #F6F6F6
+*/
+
+body {
+  font-family: "Fjalla One", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 150%;
+  letter-spacing: -1px;
+  color: #251D27;
+  margin: 0px;
+}
+
+h1 strong {
+  color: #B83C60;
+}
+
+h2 {
+  color: #251D27;
+  text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.portfolio h2 {
+    color: #F6F6F6;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+figure {
+  margin: 0px;
+}
+
+.hero {
+  display: flex;
+  height: 300px;
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("/IMG/Hero.png");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center;
+  background-position-x: right;
+  object-fit: cover;
+}
+
+.portfolio {
+  background-color: #B83C60;
+  padding: 20px;
+
+}
+
+.portfolio-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 950px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project-tittle {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+  margin: 10px 0;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project strong {
+  text-transform: uppercase;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.header {
+  background-color: #251d27;
+  color: white;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: inherit;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: inherit;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer {
+    height: 100px;
+  color:  #F6F6F6;
+  display: flex;
+  background-color:#251D27;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer img {
+  vertical-align: middle;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.event-tittle {
+  margin: 40px 50px;
+}
+
+.event {
+  margin: 10px;
+  width: 480px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color:#B83C60;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+}
+
+.event img {
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail {
+  margin: 30px 40px;
+  background-color: #f9f9f9;
+  margin-top: -50px;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.event-description {
+  text-align: left;
+}
+
+.event-url {
+  border: 1px solid #B83C60;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #B83C60;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color:#B83C60;
+  display: flex;
+  color: white;
+  height: 200px;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+.contact-button {
+  border: 1px solid #251D27;
+  background-color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  color: #251D27;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+}
+
+.form-email input {
+  border-color: #251D27;
+  padding: 10px 35px 10px;
+  background-image: url(/IMG/email.png);
+  background-size: 25px 20px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
